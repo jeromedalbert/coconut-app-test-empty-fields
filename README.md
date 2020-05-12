@@ -1,24 +1,18 @@
-# README
+# Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting Started
 
-Things you may want to cover:
+1. Install dependencies:
 
-* Ruby version
+        bundle
+        yarn
 
-* System dependencies
+1. Set up the database:
 
-* Configuration
+        rake db:create db:schema:load
 
-* Database creation
+1. Run the server:
 
-* Database initialization
+        rails start
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. You can now access http://localhost:3000 and are ready to go!
