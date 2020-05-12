@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @coconut.name %>
+</p>
+
+<p>
+  <strong>Diameter:</strong>
+  <%= @coconut.diameter %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @coconut.weight %>
+</p>
+
+<%= link_to 'Edit', edit_coconut_path(@coconut) %> |
+<%= link_to 'Back', coconuts_path %>

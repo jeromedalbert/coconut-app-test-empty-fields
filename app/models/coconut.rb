@@ -1,0 +1,2 @@
+class Coconut < ApplicationRecord
+end
